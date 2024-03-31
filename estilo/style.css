@@ -100,8 +100,8 @@ section p {
 
 .normal {
 
-            font-size: 1.5em;
-            padding-bottom: 200px;
+        
+            padding-bottom: 100px;
 
 }   
 
@@ -116,7 +116,7 @@ section p {
 }
 
 .normal > p {
-                
+        font-size: 3vw;            
     width: 400px;
    
 
@@ -125,7 +125,7 @@ section p {
 
 
 .imagem > p {
-    
+        font-size: 3vw;
     background-color: rgba(0, 0, 0, 0.281);
     width: 400px;
     display: inline-block;
