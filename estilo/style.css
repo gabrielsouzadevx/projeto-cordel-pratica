@@ -140,7 +140,7 @@ section p {
 
 
 #img1 {
-        background-image: url(vista-do-barco-na-agua-a-noite_23-2150693530.avif);
+        background-image: url(../imagens/vista-do-barco-na-agua-a-noite_23-2150693530.avif);
         background-size: cover;
         
         background-position: right center;
@@ -151,7 +151,7 @@ section p {
 }
 
 #img2 {
-        background-image: url(istockphoto-521011652-612x612.jpg);
+        background-image: url(../imagens/istockphoto-521011652-612x612.jpg);
         background-size: cover;
         
         background-position: right center;
