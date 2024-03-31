@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+
+
+:root {
+            --fonteh1: "Passion One", Verdana, sans-serif;
+            --fonte01: "Sriracha", sans-serif;
+
+
+
+
+}
+
+
+* {
+        margin: 0px;
+        padding: 0px;
+
+}
+
+html, body 
+{
+    min-height: 100vh;
+
+}
+
+
+
+header {
+            background-image: linear-gradient(to left, lightcoral, lightgray);
+            text-align: center;
+            font-variant: small-caps;
+            
+
+}
+
+header > h1 {
+                padding-top: 75px;
+                font-size:10vw;
+                font-family: var(--fonteh1);
+                font-weight: bolder;
+                text-shadow: 12px -3px 10px rgba(0, 0, 0, 0.397);
+                
+                
+
+}
+
+header p {
+        padding-top: 20px;
+        padding-bottom: 75px;
+        font-size: 4vw;
+        font-weight: bolder;
+        font-family: var(--fonte01);
+        
+}
+
+
+
+section {
+
+            padding-top: 10vh;    
+            
+            
+            
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(228, 7, 7, 0.363);
+}
+
+
+
+a:hover {
+            background-color: rgb(187, 68, 52);
+            transition-duration: 2s;
+            
+
+}
+
+
+section p {
+
+        text-indent: 12px;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        line-height: 2em;
+        font-family: var(--fonte01);
+
+}
+
+
+.normal {
+
+            font-size: 1.5em;
+            padding-bottom: 200px;
+
+}   
+
+.imagem {
+
+            background-color: rgb(88, 133, 133);
+            
+            padding-bottom: 200px;
+            box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.37);
+
+
+}
+
+.normal > p {
+                
+    width: 400px;
+   
+
+
+}
+
+
+.imagem > p {
+    
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 400px;
+    display: inline-block;
+    color: aliceblue;
+    padding-left: 50px;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+#img1 {
+        background-image: url(vista-do-barco-na-agua-a-noite_23-2150693530.avif);
+        background-size: cover;
+        
+        background-position: right center;
+        background-attachment: fixed;
+        
+
+
+}
+
+#img2 {
+        background-image: url(istockphoto-521011652-612x612.jpg);
+        background-size: cover;
+        
+        background-position: right center;
+        background-attachment: fixed;
+
+
+}
+
+
+footer {
+            background-color: rgba(0, 0, 0, 0.562);
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+
+
+}
+
