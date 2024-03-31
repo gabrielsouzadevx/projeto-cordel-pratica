@@ -65,7 +65,8 @@ header p {
 
 section {
 
-            padding-top: 10vh;    
+            padding-top: 10vh;   
+            min-width: 100px; 
             
             
             
